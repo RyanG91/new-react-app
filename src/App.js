@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Roster from './components/roster/Roster'
+import Homepage from './components/homepage/Homepage'
 import NavBar from './components/navbar/NavBar'
 
 
@@ -16,7 +16,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <Roster />          
+        <Homepage />          
       </div>
     );
   }
