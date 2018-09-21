@@ -5,7 +5,10 @@ class NavBar extends Component {
         return (
             <div>
                 <p className="App-intro">
-                Roster
+                History Quiz
+                </p>
+                <p className="App-intro">
+                Geography Quiz
                 </p>
             </div>
         )
