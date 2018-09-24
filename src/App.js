@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './stylesheets/App.css';
+import './stylesheets/NavBar.css';
 import Homepage from './components/homepage/Homepage'
 import NavBar from './components/navbar/NavBar'
 
