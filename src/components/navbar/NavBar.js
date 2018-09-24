@@ -27,8 +27,8 @@ class NavBar extends Component {
     render() {
         return (
             <Router>
-                <div>
-                    <nav>
+                <div className="navbar">
+                    <nav >
                         <Link to="/">Home</Link>
                         <Link to="/history">History</Link>
                         <Link to="/geography">Geography</Link>
