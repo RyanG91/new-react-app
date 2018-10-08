@@ -4,6 +4,7 @@ import './stylesheets/App.css';
 import './stylesheets/NavBar.css';
 import Homepage from './components/homepage/Homepage'
 import NavBar from './components/navbar/NavBar'
+import History from './components/history/History'
 
 
 class App extends Component {
@@ -14,9 +15,6 @@ class App extends Component {
           <NavBar />
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
         <Homepage />          
       </div>
     );
