@@ -4,9 +4,8 @@ class Roster extends Component {
     render() {
         return (
             <div>
-                <p className="App-intro">
-                Test
-                </p>
+                <p>Welcome to my quiz site!</p>
+                <p>Please select on the topics at the top.</p>
             </div>
         )
     }
