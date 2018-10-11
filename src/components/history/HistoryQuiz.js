@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import '../../stylesheets/App.css';
 import RomanEasy from './roman/RomanEasy'
+import RomanMedium from './roman/RomanMedium'
 
 class History extends Component {
     render() {
@@ -21,6 +22,11 @@ class History extends Component {
                             <Route path="/history/romans_easy" render={(routerProps) => {
                                 return (
                                 <RomanEasy />
+                                )
+                            }} />
+                            <Route path="/history/romans_medium" render={(routerProps) => {
+                                return (
+                                <RomanMedium />
                                 )
                             }} />
                         <br />
