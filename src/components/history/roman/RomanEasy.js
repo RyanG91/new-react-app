@@ -7,102 +7,102 @@ class Roman extends React.Component {
       
       var dataSet = [
         {
-          question: "What is 8 x 1?",
+          question: "Who succeeded Marcus Aurelius as emperor?",
           answers: [
-            "1",
-            "8",
-            "16",
-            "9"
+            "Commodus",
+            "Augustus Caesar",
+            "Nero",
+            "Maximus Decimus Meridius"
           ],
-          correct: 1
+          correct: 0
         },
         {
-          question: "Who is Steve Jobs?",
+          question: "Who was the first emperor of Rome?",
               answers: [
-                "CEO of Microsoft",
-                "Barber in NY",
-                "Movie Star",
-                "CEO of Apple"
+                "Julius Caesar",
+                "Vespasian",
+                "Tiberius",
+                "Augustus Caesar"
               ],
               correct: 3
         },
          {
-              question: "Metallica is a ____ band",
+              question: "The era following from the Roman Monarchy was:",
               answers: [
-                "Blues",
-                "Hard-Rock",
-                "Jazz",
-                "Metal"
+                "The Roman Dictatorship",
+                "The Roman Democracy",
+                "The Roman Empire",
+                "The Roman Republic"
               ],
               correct: 3
             },
             {
-              question: "IS is a ____",
+              question: "Who was the supreme god of the Rome?",
               answers: [
-                "Word",
-                "Band",
-                "Terror Group",
-                "Brand"
+                "Mars",
+                "Saturn",
+                "Jupiter",
+                "Zeus"
               ],
               correct: 2
             },
             {
-              question: "Who was Einstein",
+              question: "What language did the Romans speak?",
               answers: [
-                "A Scientist",
-                "A Dentist",
-                "A Serial Killer",
+                "Latin",
+                "Greek",
+                "Italian",
                 "None of the above"
               ],
               correct: 0
             },
             {
-              question: "JavaScript can be used in ____ development",
+              question: "The main purpose of aqueducts was to:",
               answers: [
-                "Back-End",
-                "Front-End",
-                "ReactJS",
-                "All of the Above"
+                "Give directions to lost travellers",
+                "Transport gold and resources over land",
+                "Display Roman power",
+                "Transport water from its source to a distribution point"
               ],
               correct: 3
             },
             {
-              question: "Hitler was a",
+              question: "What was Julius Caesar's cause of death?",
               answers: [
-                "Mass Murderer",
-                "Dictator",
-                "Jew",
-                "None of the above",
-                "All of the above"
+                "Killed in battle",
+                "He was assassinated",
+                "Died of old age",
+                "He drowned"
               ],
-              correct: 4
+              correct: 1
             },
             {
-              question: "Korn is a",
+              question: "What was the highest office besides dictator in the Roman Republic?",
               answers: [
-                "Nu-Metal band",
-                "Religion",
-                "Singer"
+                "Praetor",
+                "Tribune of the Plebs",
+                "Consul",
+                "Proconsul"                
               ],
-              correct: 0
+              correct: 2
             },
             {
-              question: "Windows computers are",
+              question: "Which holiday has some roots in the Roman festival of Saturnalia?",
               answers: [
-                "Horrible",
-                "Great",
-                "Cheap",
-                "Invented by Bill Gates"
+                "Easter",
+                "Birthdays",
+                "Labour Day",
+                "Christmas"
               ],
               correct: 3
             },
             {
-              question: "The BigBan stands in",
+              question: "Which religion eventually replaced the traditional Roman religions?",
               answers: [
-                "Egypt",
-                "London",
-                "Amsterdam",
-                "NewYork"
+                "Islam",
+                "Christianity",
+                "Judaism",
+                "Buddhism"
               ],
               correct: 1
             },
