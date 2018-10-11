@@ -175,7 +175,7 @@ class Roman extends React.Component {
   
   function QuizArea(props) {
     var style = {
-      width: "25%",
+      width: "100%",
       display: "block",
       textAlign: "center",
       boxSizing: "border-box",
