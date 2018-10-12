@@ -106,6 +106,12 @@ class Roman extends React.Component {
               ],
               correct: 1
             },
+            {
+              question: "Well Done! You have completed the quiz",
+              answers: [
+                "Click here to start again",
+              ],
+            },
       ];
       
       this.state = {current:0, dataSet:dataSet, correct:0, incorrect:0}
@@ -120,7 +126,7 @@ class Roman extends React.Component {
         this.setState({incorrect: this.state.incorrect + 1})
       }
       
-      if (this.state.current == 9) {
+      if (this.state.current == 10) {
         this.setState({current: 0})
         this.setState({incorrect: 0})
         this.setState({correct: 0})
