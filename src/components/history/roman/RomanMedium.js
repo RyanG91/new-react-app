@@ -7,104 +7,120 @@ class Roman extends React.Component {
       
       var dataSet = [
         {
-          question: "What is 8 x 1?",
+          question: "The Colosseum in Rome is also known as?",
           answers: [
-            "1",
-            "8",
-            "16",
-            "9"
+            "Augustian Ampitheatre",
+            "Julian Ampitheatre",
+            "Flavian Amphitheatre",
+            "Vespasian Ampitheatre",
+            "Commodian Ampitheatre",            
           ],
-          correct: 1
+          correct: 2
         },
         {
-          question: "Who is Steve Jobs?",
+          question: "How did the emperor Commodus die?",
               answers: [
-                "CEO of Microsoft",
-                "Barber in NY",
-                "Movie Star",
-                "CEO of Apple"
+                "Poisoned by his mistress Marcia",
+                "Killed in a gladitoral game by a gladitor called Maximus",
+                "Was stabbed numerous times by different senators",
+                "Strangled by his wrestling partner in his bath",
+                "Commited sucide due to revolts"                
               ],
               correct: 3
         },
          {
-              question: "Metallica is a ____ band",
+              question: "According to the Greek historian Polybius, the reason for Rome's success to dominate the world in just 50 years was:",
               answers: [
-                "Blues",
-                "Hard-Rock",
-                "Jazz",
-                "Metal"
+                "The structure of Rome's republican government",
+                "The efficiency of the Roman military",
+                "The unity of the Roman and Italian people",
+                "The importation of Greek culture into Rome",
+                "None of the above",
+              ],
+              correct: 0
+            },
+            {
+              question: "The early Roman legions consisted of 3 lines of infantry. What were their names?",
+              answers: [
+                "Velites, Equites, Hastati",
+                "Hastati, Equites, Principes",
+                "Equites, Triarii, Velites",
+                "Hastati, Principes, Triarii",
+                "Principes, Velites, Triarii",
               ],
               correct: 3
             },
             {
-              question: "IS is a ____",
+              question: "Which province supplied the city of Rome with grain?",
               answers: [
-                "Word",
-                "Band",
-                "Terror Group",
-                "Brand"
-              ],
-              correct: 2
-            },
-            {
-              question: "Who was Einstein",
-              answers: [
-                "A Scientist",
-                "A Dentist",
-                "A Serial Killer",
+                "Egypt",
+                "Africa",
+                "Italia",
+                "Syria",                
                 "None of the above"
               ],
               correct: 0
             },
             {
-              question: "JavaScript can be used in ____ development",
+              question: "A common piece of clothing in ancient Rome was:",
               answers: [
-                "Back-End",
-                "Front-End",
-                "ReactJS",
+                "Togas",
+                "Chiton",
+                "Himation",
+                "Trousers",
                 "All of the Above"
-              ],
-              correct: 3
-            },
-            {
-              question: "Hitler was a",
-              answers: [
-                "Mass Murderer",
-                "Dictator",
-                "Jew",
-                "None of the above",
-                "All of the above"
-              ],
-              correct: 4
-            },
-            {
-              question: "Korn is a",
-              answers: [
-                "Nu-Metal band",
-                "Religion",
-                "Singer"
               ],
               correct: 0
             },
             {
-              question: "Windows computers are",
+              question: "What is Julius Caesar's conquest of modern France known as?",
               answers: [
-                "Horrible",
-                "Great",
-                "Cheap",
-                "Invented by Bill Gates"
+                "Celtic Wars",
+                "Germanic Wars",
+                "Francian Wars",
+                "Belgae Wars",
+                "Gallic Wars"
+              ],
+              correct: 4
+            },
+            {
+              question: "What was the capital of the Byzantine/Eastern Roman Empire?",
+              answers: [
+                "Ephesus",
+                "Athens",
+                "Alexandria",
+                "Constantinople",
+                "Thessalonica"
               ],
               correct: 3
             },
             {
-              question: "The BigBan stands in",
+              question: "Besides gladitorial combat, another popular sport in ancient Rome was:",
               answers: [
-                "Egypt",
-                "London",
-                "Amsterdam",
-                "NewYork"
+                "Rock throwing",
+                "Chariot racing",
+                "Javelin throwing",
+                "Horse racing",
+                "Dueling"
               ],
               correct: 1
+            },
+            {
+              question: "Some of Rome's greatest feats in engineering included",
+              answers: [
+                "Roads",
+                "Aqueducts",
+                "Bridges",
+                "Concrete",
+                "All of the above"                
+              ],
+              correct: 4
+            },
+            {
+              question: "Well Done! You have completed the quiz",
+              answers: [
+                "Click here to start again",                
+              ],
             },
       ];
       
@@ -120,7 +136,7 @@ class Roman extends React.Component {
         this.setState({incorrect: this.state.incorrect + 1})
       }
       
-      if (this.state.current == 9) {
+      if (this.state.current == 10) {
         this.setState({current: 0})
         this.setState({incorrect: 0})
         this.setState({correct: 0})
@@ -175,7 +191,7 @@ class Roman extends React.Component {
   
   function QuizArea(props) {
     var style = {
-      width: "25%",
+      width: "100%",
       display: "block",
       textAlign: "center",
       boxSizing: "border-box",
