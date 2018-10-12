@@ -11,29 +11,30 @@ class App extends Component {
     return (
       <div className="App">
           <Router>
-            <div className="navbar">
-                <nav >
-                    <Link to="/">Home</Link>
-                    <Link to="/history">History</Link>
-                    <Link to="/geography">Geography</Link>
+            <div>
+                <nav className="navbar">
+                    <div className="home"><Link to="/">Home</Link></div>
+                    <div className="history"><Link to="/history">History</Link></div>
+                    <div className="geography"><Link to="/geography">Geography</Link></div>
                 </nav>
-                
-                <Route exact path="/" render={(routerProps) => {
-                  return (
-                    <Homepage />
-                  )
-                }} />
-
-                <Route path="/history" render={(routerProps) => {
+                <div className="content">
+                  <Route exact path="/" render={(routerProps) => {
                     return (
-                      <HistoryQuiz />
+                      <Homepage />
                     )
-                }} />
-                <Route path="/geography" render={(routerProps) => {
-                  return (
-                    <GeographyQuiz />
-                  )
-                }} />
+                  }} />
+
+                  <Route path="/history" render={(routerProps) => {
+                      return (
+                        <HistoryQuiz />
+                      )
+                  }} />
+                  <Route path="/geography" render={(routerProps) => {
+                    return (
+                      <GeographyQuiz />
+                    )
+                  }} />
+                </div>
             </div>
           </Router>
       </div>
