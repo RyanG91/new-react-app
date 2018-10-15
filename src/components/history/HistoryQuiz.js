@@ -4,6 +4,8 @@ import '../../stylesheets/App.css';
 import '../../stylesheets/HistoryQuiz.css';
 import RomanEasy from './roman/RomanEasy'
 import RomanMedium from './roman/RomanMedium'
+import RomanHard from './roman/RomanHard'
+
 
 class History extends Component {
     render() {
@@ -29,6 +31,11 @@ class History extends Component {
                             <Route path="/history/romans_medium" render={(routerProps) => {
                                 return (
                                 <RomanMedium />
+                                )
+                            }} />
+                            <Route path="/history/romans_hard" render={(routerProps) => {
+                                return (
+                                <RomanHard />
                                 )
                             }} />
                         <br />
