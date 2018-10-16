@@ -5,6 +5,7 @@ import '../../stylesheets/HistoryQuiz.css';
 import RomanEasy from './roman/RomanEasy'
 import RomanMedium from './roman/RomanMedium'
 import RomanHard from './roman/RomanHard'
+import Wwieasy from './wwi/Wwieasy'
 
 
 class History extends Component {
@@ -22,7 +23,7 @@ class History extends Component {
                             <div className="romanh"><Link to="/history/romans_hard">Romans Hard</Link></div>
                             <div className="romans"><Link to="/history/romans_super">Romans Super</Link></div>
                             <br />
-                            <div className="ww1e"><Link to="/history/ww1">World War One</Link></div>
+                            <div className="wwie"><Link to="/history/wwi_easy">World War One Easy</Link></div>
                             <Route path="/history/romans_easy" render={(routerProps) => {
                                 return (
                                 <RomanEasy />
@@ -36,6 +37,11 @@ class History extends Component {
                             <Route path="/history/romans_hard" render={(routerProps) => {
                                 return (
                                 <RomanHard />
+                                )
+                            }} />
+                            <Route path="/history/wwi_easy" render={(routerProps) => {
+                                return (
+                                <Wwieasy />
                                 )
                             }} />
                         <br />
