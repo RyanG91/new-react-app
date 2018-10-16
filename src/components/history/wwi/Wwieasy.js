@@ -7,114 +7,114 @@ class WWI extends React.Component {
       
       var dataSet = [
         {
-          question: "1) The German word Kaiser and Russian word Tsar both mean emperor and were translated from?",
+          question: "1) Who made up the Triple Alliance?",
           answers: [
-            "Princeps",
-            "Imperator",
-            "Augustus",
-            "Caesar",
-            "Dominus",            
+            "Britain, France, Russia",
+            "France, Russia, Italy",
+            "Germany, Austria-Hungary, Italy",
+            "Germany, Austria-Hungary, Ottoman Empire",
+            "Russia, Serbia, France",
           ],
-          correct: 3
+          correct: 2
         },
         {
-          question: "2) Which emperor established Christianity as the state religion of the empire?",
+          question: "2) Who was assassinated that is considered the start of WWI?",
               answers: [
-                "Theodosius the Great",
-                "Diocletian",
-                "Constantine the Great",
-                "Aurelian",
-                "Honorius"                
+                "Archduke Franz Ferdinand",
+                "Archduke Leopold",
+                "Archduke Charles",
+                "Archduke Rudolf",
+                "Archduke Commodus"
               ],
               correct: 0
         },
          {
-              question: "3) Who was the last king of Rome?",
+              question: "3) When was conscription introduced in Australia?",
               answers: [
-                "Tullus Hostilinus",
-                "Ancus Marcius",
-                "Lucius Tarquinius Priscus",
-                "Lucius Tarquinius Superbus",
-                "Servius Tullius",
+                "1915",
+                "1916",
+                "1917",
+                "1918",
+                "It was never introduced",
               ],
-              correct: 3
+              correct: 4
             },
             {
-              question: "4) What role did an Aedile have?",
+              question: "4) Which two countries joined the war in 1915?",
               answers: [
-                "Command legions",
-                "Arrange public festivals",
-                "Monitor of grain supply",
-                "Oversee elections",
-                "All of the above",
+                "Italy and the Ottomans",
+                "Italy and Romania",
+                "Ottomans and Romania",
+                "Italy and Spain",
+                "Italy and Ireland",
               ],
-              correct: 1
+              correct: 0
             },
             {
-              question: "5) Which of these cities was not a Roman colony?",
+              question: "5) What was the ethnicity of the communist leaders Lenin and Trotsky?",
               answers: [
-                "London",
-                "Paris",
-                "Madrid",
-                "Vienna",                
+                "Russian",
+                "Ukranian",
+                "Jewish",
+                "Polish",                
                 "None of the above"
               ],
-              correct: 4
+              correct: 2
             },
             {
-              question: "6) Which of these odd items did the Romans use cleaning clothes?",
+              question: "6) Which 3 countries were considered the main industrial powerhouses in 1914?",
               answers: [
-                "Human urine",
-                "Human poo",
-                "Human blood",
-                "Human saliva",
-                "Human vomit"
+                "France, Britain, Germany",
+                "Russia, Britain, Germany",
+                "US, Britain, Germany",
+                "Austria-Hungary, Britain, Germany",
+                "France, Russia, Italy"
               ],
-              correct: 0
+              correct: 2
             },
             {
-              question: "7) Drawnings or markings of penis' in public directed people to the nearest:",
+              question: "7) What was the capital of the Russian Empire in 1914?",
               answers: [
-                "Brothel",
-                "Toliet",
-                "Bath",
-                "Female slave markets",
-                "Doctor"
-              ],
-              correct: 0
-            },
-            {
-              question: "8) Which of the following actions did emperor Commodus undertake?",
-              answers: [
-                "Rename all months after himself",
-                "Fight in gladitoral games",
-                "Styed himself as a new Hercules",
-                "Renamed the fleet after himself",
-                "All of the above"
-              ],
-              correct: 4
-            },
-            {
-              question: "9) Which emperor brought Rome to its peak expansion?",
-              answers: [
-                "Augustus",
-                "Trajan",
-                "Marcus Aurelius",
-                "Hadrian",
-                "Septimius Severus"
+                "Moscow",
+                "St Petersburg",
+                "Kiev",
+                "Minsk",
+                "Petrograd"
               ],
               correct: 1
             },
             {
-              question: "10) Which of the following is true?",
+              question: "8) Which of these battles took place in 1916?",
               answers: [
-                "Slaves couldn't gain freedom",
-                "Slaves could gain freedom and become citizens",
-                "Slaves could gain freedom and their children could become citizens",
-                "Slaves could gain freedom but were forbidden from taking their masters lastname",
-                "Slaves could gain freedom but needed permission to marry afterwoods"
+                "1st battle of Ypres",
+                "Passchendaele",
+                "Tannenberg",
+                "Caporetto",
+                "Verdun"
               ],
-              correct: 2
+              correct: 4
+            },
+            {
+              question: "9) Trench warfare was fought mostly on which front?",
+              answers: [
+                "Eastern Front",
+                "Western Front",
+                "Austro-Italian Front",
+                "Middle Eastern Front",
+                "All of the above"
+              ],
+              correct: 1
+            },
+            {
+              question: "10) The British blockade of Germany during WWI caused how many German civilians to die of starvation?",
+              answers: [
+                "10,000 - 50,000 deaths",
+                "50,000 - 100,000 deaths",
+                "100,000 - 300,000 deaths",
+                "300,000 - 600,000 deaths",
+                "600,000 - 1,000,000 deaths"
+              ],
+              correct: 4
             },
             {
               question: "Well Done! You have completed the quiz",
