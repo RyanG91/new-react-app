@@ -6,6 +6,8 @@ import RomanEasy from './roman/RomanEasy'
 import RomanMedium from './roman/RomanMedium'
 import RomanHard from './roman/RomanHard'
 import Wwieasy from './wwi/Wwieasy'
+import Wwimedium from './wwi/Wwimedium'
+
 
 
 class History extends Component {
@@ -24,6 +26,7 @@ class History extends Component {
                             <div className="romans"><Link to="/history/romans_super">Romans Super</Link></div>
                             <br />
                             <div className="wwie"><Link to="/history/wwi_easy">World War One Easy</Link></div>
+                            <div className="wwim"><Link to="/history/wwi_medium">World War One Medium</Link></div>
                             <Route path="/history/romans_easy" render={(routerProps) => {
                                 return (
                                 <RomanEasy />
@@ -42,6 +45,11 @@ class History extends Component {
                             <Route path="/history/wwi_easy" render={(routerProps) => {
                                 return (
                                 <Wwieasy />
+                                )
+                            }} />
+                            <Route path="/history/wwi_medium" render={(routerProps) => {
+                                return (
+                                <Wwimedium />
                                 )
                             }} />
                         <br />
