@@ -8,7 +8,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   overflow: hidden;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   width: 50%;
   padding: 20px;
