@@ -12,8 +12,8 @@ class WWI extends React.Component {
             "House von Babenburg",
             "House von Hohenzollern",
             "House von Habsburg-Lorraine",
-            "House von Zollern",
-            "House von Salin",
+            "House von Wittelsbach",
+            "House von Zahringen",
           ],
           correct: 2
         },
