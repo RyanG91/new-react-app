@@ -8,6 +8,7 @@ import RomanHard from './roman/RomanHard'
 import RomanSuper from './roman/RomanSuper'
 import Wwieasy from './wwi/Wwieasy'
 import Wwimedium from './wwi/Wwimedium'
+import Wwihard from './wwi/Wwihard'
 
 
 
@@ -28,6 +29,7 @@ class History extends Component {
                             <br />
                             <div className="wwie"><Link to="/history/wwi_easy">World War One Easy</Link></div>
                             <div className="wwim"><Link to="/history/wwi_medium">World War One Medium</Link></div>
+                            <div className="wwih"><Link to="/history/wwi_hard">World War One Hard</Link></div>
                             <Route path="/history/romans_easy" render={(routerProps) => {
                                 return (
                                 <RomanEasy />
@@ -56,6 +58,11 @@ class History extends Component {
                             <Route path="/history/wwi_medium" render={(routerProps) => {
                                 return (
                                 <Wwimedium />
+                                )
+                            }} />
+                            <Route path="/history/wwi_hard" render={(routerProps) => {
+                                return (
+                                <Wwihard />
                                 )
                             }} />
                         <br />
