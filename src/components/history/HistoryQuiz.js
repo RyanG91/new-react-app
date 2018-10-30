@@ -9,6 +9,7 @@ import RomanSuper from './roman/RomanSuper'
 import Wwieasy from './wwi/Wwieasy'
 import Wwimedium from './wwi/Wwimedium'
 import Wwihard from './wwi/Wwihard'
+import Wwisuper from './wwi/Wwisuper'
 
 
 
@@ -63,6 +64,11 @@ class History extends Component {
                             <Route path="/history/wwi_hard" render={(routerProps) => {
                                 return (
                                 <Wwihard />
+                                )
+                            }} />
+                            <Route path="/history/wwi_super" render={(routerProps) => {
+                                return (
+                                <Wwisuper />
                                 )
                             }} />
                         <br />
