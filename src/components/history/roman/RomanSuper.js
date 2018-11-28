@@ -35,7 +35,7 @@ class Roman extends React.Component {
                 "The legions generally carried all their supplies",
                 "The legions had a large number of slaves carrying their supplies",
                 "The large number of mules the Romans brought with them",
-                "Most Romans rode on Mules while travelling",
+                "Most Romans rode on mules while travelling",
               ],
               correct: 1
             },

@@ -51,13 +51,13 @@ class WWI extends React.Component {
               correct: 4
             },
             {
-              question: "5) The Balfour Declaration was the British supporting a Jewish homeland where?",
+              question: "5) The Balfour Declaration was the British supporting a Jewish homeland in Palestine, what did the Jews need to do for this?",
               answers: [
-                "China",
-                "Ireland",
-                "Madagascar",
-                "Germany",
-                "Palestine"
+                "Distrupt German war effort through strikes and riots",
+                "Bring the US into the war on the Allied side",
+                "Raise funds for the war",
+                "Get other Jews to support the Allies in other countries",
+                "All of the above"
               ],
               correct: 4
             },

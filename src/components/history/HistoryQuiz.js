@@ -31,6 +31,7 @@ class History extends Component {
                             <div className="wwie"><Link to="/history/wwi_easy">World War One Easy</Link></div>
                             <div className="wwim"><Link to="/history/wwi_medium">World War One Medium</Link></div>
                             <div className="wwih"><Link to="/history/wwi_hard">World War One Hard</Link></div>
+                            <div className="wwis"><Link to="/history/wwi_super">World War One Super</Link></div>
                             <Route path="/history/romans_easy" render={(routerProps) => {
                                 return (
                                 <RomanEasy />
